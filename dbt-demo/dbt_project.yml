@@ -1,0 +1,19 @@
+name: "poc_project"
+version: "1.0"
+config-version: 2
+
+profile: "default"
+
+model-paths: ["models"]
+macro-paths: ["macros"]
+docs-paths: ["docs"]
+
+models:
+  poc_project:
+    # materialized: table
+    stg:
+      schema: stg
+    dwd:
+      schema: dwd
+    mart:
+      schema: mart
