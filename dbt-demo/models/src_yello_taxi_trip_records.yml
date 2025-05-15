@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: src
+    database: postgres
+    schema: public
+    tables:
+      - name: yello_taxi_trip_records

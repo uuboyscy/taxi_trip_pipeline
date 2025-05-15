@@ -11,9 +11,7 @@ docs-paths: ["docs"]
 models:
   poc_project:
     # materialized: table
-    stg:
-      schema: stg
-    dwd:
-      schema: dwd
     mart:
       schema: mart
+    dim:
+      schema: dim
