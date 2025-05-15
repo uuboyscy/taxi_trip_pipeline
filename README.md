@@ -1,3 +1,5 @@
+- GitHub Repository
+  https://github.com/uuboyscy/taxi_trip_pipeline
 
 - Data source
   https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
@@ -47,3 +49,7 @@
     ```shell
     docker run --network=taxi-demo --name taxi-trip-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mypassword --ip 172.28.5.12 -d postgres
     ```
+
+- Build dbt
+    - cd to dbt folder and then `poetry install`
+    - dbt debug to test connection
